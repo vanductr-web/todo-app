@@ -1,0 +1,74 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 14px;
+  background: #007AFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005ecb;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.delete-btn {
+  background: #e63946;
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* style.css */
+.done { text-decoration: line-through; opacity: 0.7; }
+.delete-btn { margin-left: 8px; }
