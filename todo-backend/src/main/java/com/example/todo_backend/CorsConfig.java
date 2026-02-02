@@ -16,7 +16,8 @@ public class CorsConfig {
                         .allowedOriginPatterns(
                                 "http://localhost:5500",
                                 "http://127.0.0.1:5500",
-                                "https://*.netlify.app"
+                                "https://*.netlify.app",
+                                "https://*.onrender.com"
                         )
                         .allowedMethods("GET","POST","PUT","DELETE","OPTIONS")
                         .allowedHeaders("*");
