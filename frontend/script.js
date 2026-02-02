@@ -1,4 +1,7 @@
-const API = 'http://localhost:8080/api/tasks'; // đổi port nếu bạn đổi server.port
+// const API = 'http://localhost:8080/api/tasks'; // đổi port nếu bạn đổi server.port
+
+const API_BASE = "https://todo-app-1p61.onrender.com"; // URL Render của backend
+const API = `${API_BASE}/api/tasks`;
 
 const input = document.getElementById("todo-input");
 const addBtn = document.getElementById("add-btn");
